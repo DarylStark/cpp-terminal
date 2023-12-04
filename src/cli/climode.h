@@ -12,6 +12,7 @@ protected:
 
 public:
     CLIMode(CLI *cli_instance);
+
     // Input/output methods
     virtual std::string get_prompt() const = 0;
     virtual void handle_input(const std::string input) = 0;

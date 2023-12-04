@@ -7,7 +7,6 @@
 
 #include "cli_exceptions.h"
 #include "climode.h"
-#include "loginmode.h"
 
 class CLI
 {
@@ -17,6 +16,7 @@ private:
 public:
     // Constructors
     CLI();
+    CLI(std::shared_ptr<CLIMode> mode);
 
     // Needed functions for the loop
     void loop();

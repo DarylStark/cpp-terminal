@@ -3,9 +3,9 @@
 
 #include <string>
 
-#include "cli_exceptions.h"
-#include "cli.h"
-#include "climode.h"
+#include "../cli/cli_exceptions.h"
+#include "../cli/cli.h"
+#include "../cli/climode.h"
 
 #include "usermode.h"
 

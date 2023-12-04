@@ -2,7 +2,11 @@
 
 CLI::CLI()
 {
-    this->transition_mode(std::make_shared<LoginMode>(this));
+}
+
+CLI::CLI(std::shared_ptr<CLIMode> mode)
+{
+    transition_mode(mode);
 }
 
 void CLI::loop()

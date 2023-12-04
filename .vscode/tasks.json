@@ -14,7 +14,8 @@
                 "-o",
                 "${workspaceFolder}/build/debug/app",
                 "/home/dast/Dev/lib/bin/*.o",
-                "${workspaceFolder}/src/*.cpp"
+                "${workspaceFolder}/src/*.cpp",
+                "${workspaceFolder}/src/**/*.cpp"
             ],
             "options": {
                 "cwd": "${workspaceFolder}/src"
